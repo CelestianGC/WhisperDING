@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root version="3.0" >
+
+	<properties>
+		<name>CoreRPG - WhisperDING</name>
+		<version>1.0</version>
+		<loadorder>99</loadorder>
+		<description>
+			<text>WhisperDING, Adds option to receive DING/RING when you get a whisper.</text>
+			<website></website>
+			<author>Celestian</author>
+		</description>
+	</properties>
+
+    <announcement text="WhisperDING - Extension v1.0\rCoreRPG/5E version for Fantasy Grounds\r--by Celestian 2018.02.28" font="emotefont" />
+	<base>		
+    <!-- ding/ring on private message  -->
+    <string name="option_label_ADND_PM_DING">DING on Whisper Received</string>
+    <string name="option_label_ADND_PM_DING_enabled">Enabled</string>
+    <string name="option_label_ADND_PM_DING_disabled">Disabled</string>
+
+    <script name="ChatManagerADND" file="scripts/manager_chat_adnd.lua" />
+  </base>
+    
+</root>
