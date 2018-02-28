@@ -4,7 +4,7 @@
 
 	<properties>
 		<name>CoreRPG - WhisperDING</name>
-		<version>1.0</version>
+		<version>1.1</version>
 		<loadorder>99</loadorder>
 		<description>
 			<text>WhisperDING, Adds option to receive DING/RING when you get a whisper.</text>
