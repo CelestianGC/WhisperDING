@@ -14,7 +14,7 @@ function onInit()
   
   -- option in option_header_client section, enable/disable to receive DING on private message received
 	OptionsManager.registerOption2("ADND_PM_DING", false, "option_header_client", "option_label_ADND_PM_DING", "option_entry_cycler", 
-			{ labels = "option_label_ADND_PM_DING_enabled" , values = "enabled", baselabel = "option_label_ADND_PM_DING_disabled", baseval = "disabled", default = "disabled" });    
+      { labels = "option_label_ADND_PM_DING_enabled", values = "enabled", baselabel = "option_label_ADND_PM_DING_disabled", baseval = "disabled", default = "enabled" })
 
 end
 
